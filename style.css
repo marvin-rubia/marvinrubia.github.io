@@ -27,6 +27,12 @@ body {
     min-height: 70vh;
 }
 
+a {
+    color: var(--accent); /* Electric sky blue (#38bdf8) for high visibility */
+    text-decoration: none;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
 /* Header & Tab Buttons Navigation */
 header {
     position: sticky;
