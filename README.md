@@ -1,3 +1,3 @@
-# marvinrubia.github.io
+# marvin-rubia.github.io/portfolio
 
 IN PROGRESS...
