@@ -1,3 +1,16 @@
+/* Color Palette Variables */
+:root {
+    --bg-dark: #0b132b;        /* Deep navy page background */
+    --bg-card: #1c2541;        /* Slightly lighter navy for cards & navbar */
+    --bg-card-hover: #233154;  /* Card hover state */
+    --text-primary: #f8fafc;   /* High contrast white-slate text */
+    --text-secondary: #94a3b8; /* Muted slate for subtitles & secondary info */
+    --accent: #38bdf8;         /* Electric sky blue for primary actions & active tabs */
+    --accent-hover: #0284c7;   /* Hover state for accent buttons */
+    --border-color: #334155;   /* Subtle slate border */
+}
+
+/* Base Styles */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     margin: 0;
