@@ -34,9 +34,10 @@
                     I also publish data-related blogs on <a href="https://marvinrubia.medium.com/" target="_blank">my Medium account</a>. I am also the creator of <a href="https://tracebuck-backtester-by-marvin-rubia.streamlit.app/" target="_blank">TraceBuck</a>, a FREE trading system backtester that simulates a multi-asset portfolio, trading costs, and risk management logic, so you can test strategies without risking real money.
                 </p>
                 <div class="cta-buttons">
-                    <button onclick="switchTabDirectly('projects')" class="btn btn-primary">View Projects</button>
                     <a href="https://github.com/marvin-rubia" target="_blank" class="btn btn-secondary">GitHub Profile</a>
                     <a href="https://www.linkedin.com/in/marvinrubia08/" target="_blank" class="btn btn-secondary">LinkedIn Profile</a>
+                    <a href="resume.pdf" target="_blank" class="btn btn-secondary">Download Resume</a>
+                    
                 </div>
             </div>
         </section>
@@ -165,6 +166,8 @@
             }
         }
 
+    
+        <!-- Previous View Projects button: <button onclick="switchTabDirectly('projects')" class="btn btn-primary">View Projects</button> -->
         function switchTabDirectly(tabId) {
             const targetBtn = Array.from(document.querySelectorAll('.tab-btn')).find(
                 btn => btn.getAttribute('onclick').includes(tabId)
